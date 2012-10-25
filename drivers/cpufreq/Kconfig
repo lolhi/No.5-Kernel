@@ -116,15 +116,6 @@ config CPU_FREQ_DEFAULT_GOV_SMARTASS2
 	select CPU_FREQ_GOV_SMARTASS2
 	help
 	  Use the CPUFreq governor 'smartassV2' as default.
-
-config CPU_FREQ_DEFAULT_GOV_INTERACTIVE
-	bool "interactive"
-	select CPU_FREQ_GOV_INTERACTIVE
-	help
-	  Use the CPUFreq governor 'interactive' as default. This allows
-	  you to get a full dynamic cpu frequency capable system by simply
-	  loading your cpufreq low-level hardware driver, using the
-	  'interactive' governor for latency-sensitive workloads.
 endchoice
 
 config CPU_FREQ_GOV_PERFORMANCE
@@ -200,12 +191,6 @@ config CPU_FREQ_GOV_CONSERVATIVE
 
 	  To compile this driver as a module, choose M here: the
 	  module will be called cpufreq_conservative.
-
-config CPU_FREQ_GOV_INTERACTIVE
-	tristate "'interactive' cpufreq policy governor"
-	help
-	  'interactive' - This driver adds a dynamic cpufreq policy governor
-	  designed for latency-sensitive workloads.
 
 	  For details, take a look at linux/Documentation/cpu-freq.
 
