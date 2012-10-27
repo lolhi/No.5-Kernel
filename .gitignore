@@ -99,3 +99,13 @@ zconf.hash.c
 zconf.tab.c
 elfconfig.h
 initramfs_data.cpio
+docproc
+fixdep
+hash
+bin2c
+conmakehash
+kallsyms
+scripts/kconfig/conf
+scripts/kconfig/mconf
+mk_elfconfig
+modpost
