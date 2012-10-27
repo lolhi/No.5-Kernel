@@ -90,12 +90,3 @@ GTAGS
 *.orig
 *~
 \#*#
-
-lib1funcs.S
-piggy.gzip
-vmlinux.lds
-lex.zconf.c
-zconf.hash.c
-zconf.tab.c
-elfconfig.h
-initramfs_data.cpio
